@@ -47,23 +47,9 @@ Available at [http://localhost:8000](http://localhost:8000).
 
 ## API Usage
 
-Send a `POST` request to `/query` with a JSON body containing your query. Example query:
+Send a `POST` request to `/query` with a JSON body containing your query.
 
-```json
-{
-  "query": "ما هو التفاعل بين دوائين الباراسيتامول والأيبوبروفين؟"
-}
-```
-
-### Response Example:
-```json
-{
-  "response": "تفاعل بين الباراسيتامول والأيبوبروفين قد يزيد من خطر المشاكل الكلوية."
-}
-```
 
 ## Deployment
 
-The application is deployed on Azure, and you can access the deployed service at:
-
-[https://medecoapplication-d7fgcuanh7ddc0h2.uaenorth-01.azurewebsites.net](https://medecoapplication-d7fgcuanh7ddc0h2.uaenorth-01.azurewebsites.net)
+The application is deployed on Azure
